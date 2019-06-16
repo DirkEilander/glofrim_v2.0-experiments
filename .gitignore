@@ -1,7 +1,7 @@
 # ignore CMF/PCR/LFP folder. update archive only
-*PCR/
-*CMF/
-*LFP/
+PCR/
+CMF/
+LFP/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
