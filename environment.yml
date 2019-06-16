@@ -16,6 +16,8 @@ dependencies:
   - faulthandler>=2.3
   - six>=1.6.1
   - pip>=9.0.3
+  - matplotlib
   - pip:
     - bmi-python
     - git+https://github.com/openearth/glofrim.git@2.0-beta
+    - 
