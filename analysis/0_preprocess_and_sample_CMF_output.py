@@ -8,6 +8,8 @@ Lisdflood-FP is either already stored as netCDF files or directly as txt-files a
 require this pre-processing.
 After specifying the output location, all binary files are read and simulated discharge is sampled.
 For further processing, the values are stored and written to a txt-file.
+It can be applied for the Ganges-Brahmaputra where output is sampled at different locations (locationIDs 1-3).
+It can also be applied for the Amazon where output is sampled at Obidos (locationID = 'AMA').
 
 @author: J.M. Hoch
 @mail: j.m.hoch@uu.nl
@@ -16,7 +18,7 @@ For further processing, the values are stored and written to a txt-file.
 import rasterio as rs
 import matplotlib.pyplot as plt
 import numpy as np
-import os
+import os, sys
 
 
 # CMF tif file required to obtain spatial properties of output maps
@@ -37,6 +39,10 @@ elif locationID == 2:
     xy_ind = (65,32)
 elif locationID == 3:
     xy_ind = (70,35)
+elif locationID == 'AMA':
+    xy_ind = (102, 36)
+else:
+    sys.exit('no adequate locationID specified')
 
 def get_cmf_outflw_binary(path_base, ncol, nrow, x_ind_obs, y_ind_obs):
     """
@@ -85,4 +91,6 @@ elif locationID == 2:
     np.savetxt(r'path/to/sampled_CMF_output/QCMF_at_HardingeBridge.txt', QCMF)
 elif locationID == 3:
     np.savetxt(r'path/to/sampled_CMF_output/QCMF_at_LFPlocation.txt', QCMF)
+elif locationID == 'AMA':
+    np.savetxt(r'path/to/sampled_CMF_output/QCMF_at_Obidos.txt', QCMF)
 
