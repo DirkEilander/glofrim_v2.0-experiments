@@ -1,0 +1,5 @@
+ NX         100
+ NY          44
+ NLFP          10
+ REGIONALL           1
+ NSEQMAX        4339

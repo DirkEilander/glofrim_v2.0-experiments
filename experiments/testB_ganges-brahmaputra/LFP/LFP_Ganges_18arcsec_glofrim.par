@@ -1,0 +1,23 @@
+refdate 2000-01-01
+
+DEMfile dem_masked_furtherClipped.asc
+resroot ganges-nested
+dirroot ../OUT/LFP
+sim_time 283910400
+refdate 2001-01-01
+initial_tstep 432
+massint 86400.0
+saveint 1296000.0
+bcifile BCIstations_furtherClipped.bci
+SGCwidth river_width_masked_furtherClipped.asc
+SGCbank dem_masked_furtherClipped.asc
+SGCbed river_bottomElev_masked_furtherClipped.asc
+gaugefile Qsim.gauge
+stagefile waterLevel.stage
+fpfric 0.10
+SGCn 0.030
+SGCr 0.15
+SGCp 0.65
+debug None
+latlong None
+
