@@ -17,4 +17,4 @@ The output will be saved in the OUT folder in this directory.
 
 NOTE
 ----
-As the PCRGLOB-WB DynRout module is not available in the version with BMI adaptor, the run including this module was done seperately using a different ini file (PCR/DynRout_30min_Amazon_noWaterbodies_2005_2010_para.ini) compared the coupled GLOFRIM run. The model version used for this run can be foud at ...
+As the PCRGLOB-WB DynRout module is not available in the version with BMI adaptor, the run including this module was done seperately using a different ini file (PCR/DynRout_30min_Amazon_noWaterbodies_2005_2010_para.ini) compared the coupled GLOFRIM run.
