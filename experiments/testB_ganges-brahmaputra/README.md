@@ -14,3 +14,8 @@ HOW TO RUN
 OUTPUTS
 -------
 The output will be saved in the OUT folder in this directory.
+
+NOTE
+----
+As the PCRGLOB-WB DynRout module is not available in the version with BMI adaptor, the run including this module was done seperately using a different ini file compared to the coupled GLOFRIM run.
+The additional input files as well as the required ini-file for the DynRout runs are available upon request.
