@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/192187327.svg)](https://zenodo.org/badge/latestdoi/192187327)
+
 # glofrim_v2.0-experiments
 GLOFRIM v2 model experiments for NHESS publication:
 
