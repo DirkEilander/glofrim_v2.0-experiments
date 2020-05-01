@@ -54,7 +54,7 @@ Q = []
 Qx = []
 Qy = []
 time = []
-timesteps = 2
+timesteps = 365
 cbmi.logger.info('Running 1d experiment for {:d} timesteps'.format(timesteps))
 try:
     i = 0
