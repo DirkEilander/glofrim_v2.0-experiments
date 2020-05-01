@@ -1,0 +1,33 @@
+# Subgrid solver
+#
+DEMfile elevtn_masked.asc
+
+resroot	res_SGC
+
+dirroot	results_Barotse
+sim_time	410227200
+
+
+initial_tstep	60
+massint	86400
+saveint	410227200
+
+#checkpoint
+fpfric	0.08
+
+routing
+bcifile barotse.bci
+
+elevoff
+
+SGCwidth width_lui_modified.asc
+SGCn	0.06
+SGCbank  elevtn.asc
+
+debug
+
+evaporation	evaporation.evap
+
+
+SGCr	0.055
+SGCp	0.76

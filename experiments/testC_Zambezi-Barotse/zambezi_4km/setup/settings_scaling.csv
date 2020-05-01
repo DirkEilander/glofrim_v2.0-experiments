@@ -1,0 +1,16 @@
+parameter,conversion,scale_method,mult_factor,folder_in,files
+thetaS,,average,1,wflow_sbm_parameters\soilgrids,thetaS*.tif
+thetaR,,average,1,wflow_sbm_parameters\soilgrids,thetaR*.tif
+ksatver,log,average,1,wflow_sbm_parameters\soilgrids\KsatVer_Brakensiek,*.tif
+lambda,log,average,1,wflow_sbm_parameters\soilgrids,lambda*.tif
+soilthickness,,average,10,wflow_sbm_parameters\soilgrids,SoilThickness_250m.tif
+landcover,,mode,1,base\landcover\globcover,GLOBCOVER_200901_200912_300x300m.tif
+waterfrac,,average,1,wflow_sbm_parameters\landcover\globcover,WaterFrac_global_300x300m.tif
+pathfrac,,average,1,wflow_sbm_parameters\landcover\globcover,PathFrac_global_300x300m.tif
+LAI,,average,0.1,base\lai\MODIS_MCD15A3H_LAI,*.tif
+swood,,average,1,wflow_sbm_parameters\landcover\globcover,Swood_300x300m.tif
+sl,,average,1,wflow_sbm_parameters\landcover\globcover,Sl_300x300m.tif
+n_land,,average,1,wflow_sbm_parameters\landcover\globcover,N_300x300m.tif
+kext,,average,1,wflow_sbm_parameters\landcover\globcover,Kext_300x300m.tif
+RootingDepth,,average,1000,wflow_sbm_parameters\landcover\globcover,RootingDepth_effective.tif
+RootingDepth,,average,1,wflow_sbm_parameters\landcover\globcover,RootingDepth_d75_300x300m.tif

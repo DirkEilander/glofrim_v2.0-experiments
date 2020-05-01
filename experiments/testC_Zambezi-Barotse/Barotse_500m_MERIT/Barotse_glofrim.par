@@ -1,0 +1,22 @@
+refdate 2000-01-01
+
+DEMfile elevtn_masked.asc
+resroot res_SGC
+dirroot results_Barotse
+sim_time 31536000
+initial_tstep 60
+massint 86400
+saveint 410227200
+fpfric 0.08
+routing None
+bcifile barotse.bci
+elevoff None
+SGCwidth width_lui_modified.asc
+SGCn 0.06
+SGCbank elevtn.asc
+debug None
+evaporation evaporation.evap
+SGCr 0.055
+SGCp 0.76
+refdate 2000-01-01
+
